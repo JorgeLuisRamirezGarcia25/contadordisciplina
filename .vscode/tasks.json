@@ -1,0 +1,18 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Crear ejecutable con PyInstaller",
+			"command": "pyinstaller",
+			"args": [
+				"--onefile",
+				"--windowed",
+				"contador_tareas_semanal.py"
+			],
+			"problemMatcher": [],
+			"group": "build",
+			"isBackground": false
+		}
+	]
+}

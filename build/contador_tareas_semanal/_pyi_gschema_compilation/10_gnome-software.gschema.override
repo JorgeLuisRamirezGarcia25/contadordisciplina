@@ -1,0 +1,4 @@
+[org.gnome.software]
+official-repos=['debian-*']
+free-repos=['debian-*-main']
+free-repos-url='https://www.debian.org/social_contract#guidelines'
